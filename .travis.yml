@@ -2,7 +2,6 @@ sudo: required
 services:
   - docker
 
-
 before_install:
   - docker build -t kamleshkorat/docker-react -f Dockerfile.dev .
 
